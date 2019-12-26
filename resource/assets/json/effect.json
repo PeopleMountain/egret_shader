@@ -1,0 +1,243 @@
+{
+    "effect": [
+        {
+            "name": "Brightness/Contrast",
+            "attr": [
+                {
+                    "name": "brightness",
+                    "min": -1,
+                    "max": 1,
+                    "curNum": 0
+                },
+                {
+                    "name": "contrast",
+                    "min": -1,
+                    "max": 1,
+                    "curNum": 0
+                }
+            ]
+        },
+        {
+            "name": "Hue/Saturation",
+            "attr": [
+                {
+                    "name": "Hue",
+                    "min": -1,
+                    "max": 1,
+                    "curNum": 0
+                },
+                {
+                    "name": "Saturation",
+                    "min": -1,
+                    "max": 1,
+                    "curNum": 0
+                }
+            ]
+        },
+        {
+            "name": "Vibrance",
+            "attr": [
+                {
+                    "name": "Amount",
+                    "min": -1,
+                    "max": 1,
+                    "curNum": 0
+                }
+            ]
+        },
+        {
+            "name": "Denoise",
+            "attr": [
+                {
+                    "name": "Exponent",
+                    "min": 0,
+                    "max": 50,
+                    "curNum": 0
+                }
+            ]
+        },
+        {
+            "name": "Noise",
+            "attr": [
+                {
+                    "name": "Amount",
+                    "min": 0,
+                    "max": 1,
+                    "curNum": 0
+                }
+            ]
+        },
+        {
+            "name": "Sepia",
+            "attr": [
+                {
+                    "name": "Amount",
+                    "min": 0,
+                    "max": 1,
+                    "curNum": 0
+                }
+            ]
+        },
+        {
+            "name": "Vignette",
+            "attr": [
+                {
+                    "name": "Size",
+                    "min": 0,
+                    "max": 1,
+                    "curNum": 0
+                },
+                {
+                    "name": "Amount",
+                    "min": 0,
+                    "max": 1,
+                    "curNum": 0
+                }
+            ]
+        },
+        {
+            "name": "Zoom Blur",
+            "attr": [
+                {
+                    "name": "Strength",
+                    "min": 0,
+                    "max": 1,
+                    "curNum": 0
+                },
+                {
+                    "name": "CenterX",
+                    "min": 0,
+                    "max": 500,
+                    "curNum": 250
+                },
+                {
+                    "name": "CenterY",
+                    "min": 0,
+                    "max": 800,
+                    "curNum": 400
+                }
+            ]
+        },
+        {
+            "name": "Triangle Blur",
+            "attr": [
+                {
+                    "name": "delta",
+                    "min": 0,
+                    "max": 200,
+                    "curNum": 0
+                }
+            ]
+        },
+        {
+            "name": "Tilt Shift",
+            "attr": [
+                {
+                    "name": "blurRadius",
+                    "min": 0,
+                    "max": 50,
+                    "curNum": 0
+                },
+                {
+                    "name": "gradientRadius",
+                    "min": 0,
+                    "max": 500,
+                    "curNum": 0
+                },
+                {
+                    "name": "startX",
+                    "min": 0,
+                    "max": 500,
+                    "curNum": 0
+                },
+                {
+                    "name": "startY",
+                    "min": 0,
+                    "max": 800,
+                    "curNum": 0
+                },
+                {
+                    "name": "endX",
+                    "min": 0,
+                    "max": 400,
+                    "curNum": 400
+                },
+                {
+                    "name": "endY",
+                    "min": 0,
+                    "max": 800,
+                    "curNum": 800
+                }
+            ]
+        },
+        {
+            "name": "Swirl",
+            "attr": [
+                {
+                    "name": "angle",
+                    "min": -25,
+                    "max": 25,
+                    "curNum": 0
+                },
+                {
+                    "name": "radius",
+                    "min": 0,
+                    "max": 500,
+                    "curNum": 250
+                },
+                {
+                    "name": "CenterX",
+                    "min": 0,
+                    "max": 500,
+                    "curNum": 250
+                },
+                {
+                    "name": "CenterY",
+                    "min": 0,
+                    "max": 800,
+                    "curNum": 400
+                }
+            ]
+        },
+        {
+            "name": "Bulge Pinch",
+            "attr": [
+                {
+                    "name": "Strength",
+                    "min": -1,
+                    "max": 1,
+                    "curNum": 0
+                },
+                {
+                    "name": "radius",
+                    "min": 0,
+                    "max": 500,
+                    "curNum": 0
+                },
+                {
+                    "name": "CenterX",
+                    "min": 0,
+                    "max": 500,
+                    "curNum": 250
+                },
+                {
+                    "name": "CenterY",
+                    "min": 0,
+                    "max": 800,
+                    "curNum": 400
+                }
+            ]
+        },
+        {
+            "name": "Perspective",
+            "attr": [
+            ],
+            "initPoint":[
+                0,0,500,0,0,800,500,800
+            ],
+            "usePoint":[
+                0,0,500,0,0,800,500,800
+            ]
+        }
+    ]
+}

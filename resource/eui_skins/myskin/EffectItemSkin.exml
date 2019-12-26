@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EffectItemSkin" width="479" height="122" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="attrName" text="Label" anchorOffsetX="0" width="101" anchorOffsetY="0" height="34" verticalCenter="-0.5" left="0"/>
+	<e:VSlider id="slider" x="461" anchorOffsetX="0" anchorOffsetY="0" rotation="90" verticalCenter="0" height="331"/>
+	<e:Label id="valueLabel" text="Label" x="130" y="0"/>
+</e:Skin>
